@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--Flex and Alignment-->
+    <!-- "flex" by default row/horizontal -->
+    <!-- <div class="flex">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+    "flex-col" to make it vertical/columns
+    <div class="flex flex-col">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div> -->
+    <!-- <div
+      class="flex h-72 w-full bg-yellow-100 flex-wrap items-center justify-content"
+    >
+      <div class="p-10 border border-red-300 bg-blue-100">1</div>
+      <div class="p-10 border border-red-300 bg-blue-100">2</div>
+      <div class="p-10 border border-red-300 bg-blue-100">3</div>
+      <div class="p-10 border border-red-300 bg-blue-100">4</div>
+      <div class="p-10 border border-red-300 bg-blue-100">1</div>
+      <div class="p-10 border border-red-300 bg-blue-100">1</div>
+      <div class="p-10 border border-red-300 bg-blue-100">1</div>
+      <div class="p-10 border border-red-300 bg-blue-100">1</div>
+    </div> -->
+    <!--Flex Column, Gap and Order-->
+    <!-- <div
+      class="flex flex-col gap-4 items-center justify-between h-72 w-full bg-green-300"
+    >
+      <div class="p-10 border border-blue-300 bg-blue-100 order-4">1</div>
+      <div class="p-10 border border-blue-300 bg-blue-100 order-3">2</div>
+      <div class="p-10 border border-blue-300 bg-blue-100 order-4">3</div>
+      <div class="p-10 border border-blue-300 bg-blue-100 order-1">4</div>
+    </div> -->
+    <!--Grow and Shrink-->
+    <div class="flex w-full bg-yellow-100">
+      <div class="flex-1 w-64 p-10 border border-red-300 bg-blue-100">1</div>
+      <div class="flex-auto w-64 p-10 border border-red-300 bg-blue-100">2</div>
+      <div class="flex-initial w-64 p-10 border border-red-300 bg-blue-100">
+        3
+      </div>
+      <div class="flex-none w-64 p-10 border border-red-300 bg-blue-100">4</div>
+      <div class="p-10 border border-red-300 bg-blue-100">5</div>
+      <div class="p-10 border border-red-300 bg-blue-100">6</div>
+      <div class="p-10 border border-red-300 bg-blue-100">7</div>
+    </div>
+
+    <div class="flex mt-4 text-center">
+      <div class="flex-1 bg-green-100">Three Even Columns</div>
+      <div class="flex-1 bg-green-100">Three Even Columns</div>
+      <div class="flex-1 bg-green-100">Three Even Columns</div>
+    </div>
+  </body>
+</html>
+<!--
+flex-1	flex: 1 1 0%;
+Allow item to shrink and grow AS NEEDED, IGNOrING its initial size.
+
+flex-auto	flex: 1 1 auto;
+Allow item to shrink and grow, "taking into account" its initial size
+
+flex-initial	flex: 0 1 auto;
+Allow item to shrink but not grow, taking into account its initial size
+
+flex-none	flex: none;
+Prevent item from growing or shrinking
+-->
