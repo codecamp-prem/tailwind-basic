@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--Hover State Styling-->
+    <button
+      class="bg-black text-white py-3 px-5 rounded lg m-3 hover:bg-yellow-300 hover:text-black"
+    >
+      Hover State
+    </button>
+    <!--Focus State Styling-->
+    <button
+      class="bg-black text-white py-3 px-5 rounded lg m-3 focus:bg-red-300 focus:text-black"
+    >
+      Focus State
+    </button>
+    <!--Active State Styling-->
+    <button
+      class="bg-black text-white py-3 px-5 rounded lg m-3 active:bg-green-300 active:text-black"
+    >
+      Active State
+    </button>
+    <!--Styling based on parent state-->
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-300"
+    >
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card Text</p>
+    </a>
+
+    <!--Pseudo classes-->
+    <ul>
+      <li class="first:bg-yellow-600">Item 1</li>
+      <li class="first:bg-yellow-600">Item 2</li>
+      <li class="first:bg-yellow-600">Item 3</li>
+      <li class="first:bg-yellow-600">Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+    </ul>
+
+    <!--Appearance-->
+    <!--Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components-->
+    <select class="appearance-none">
+      <option value="yes">No</option>
+      <option value="no">Yeah</option>
+    </select>
+
+    <!--Cursor-->
+    <p class="mt-4 cursor-pointer">Hover on this para for cursor pointer</p>
+    <p class="mt-4 cursor-wait">Hover on this para for cursor wait</p>
+    <p class="mt-4 cursor-not-allowed">
+      Hover on this para for cursor not cursor-not-allowed
+    </p>
+    <p class="mt-2 cursor-help">Get help cursor(?)</p>
+
+    <!--User Select-->
+    <div class="mt-2 select-none">
+      you can't Select this. you can't Select this. you can't Select this. you
+      can't Select this. you can't Select this
+    </div>
+    <div class="mt-2 select-text">You can select Text</div>
+    <div class="mt-2 select-all">Click anywhere to select all</div>
+    <div class="mt-2 select-auto">Default select</div>
+
+
+    <!--Smooth Scroll Example-->
+    <!-- class="scroll-smooth" add at opening <html> in Tailwind-->
+    <a href="#item" class="block my-6">Go to item</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quis, fugiat nemo eos laboriosam nisi iste hic facere sunt repellendus neque voluptatem officia aut esse voluptatum modi qui. Aut repudiandae atque delectus amet voluptate tenetur maxime aspernatur pariatur saepe praesentium, cum qui adipisci, enim, sint impedit veniam labore quo voluptatum commodi aperiam soluta laboriosam at maiores accusamus? Eius harum est ut nostrum et perspiciatis repellendus beatae qui delectus ad ipsa illum exercitationem, incidunt recusandae voluptate placeat hic quos. Excepturi numquam libero, similique necessitatibus saepe beatae iste nulla itaque nam distinctio odio voluptatem. Illo facilis, neque nulla consectetur, similique quaerat, culpa labore earum autem repudiandae reiciendis iste natus quos omnis ipsa tempora nemo accusamus dolorem libero tempore perferendis harum. Asperiores eius doloremque itaque laborum consequuntur delectus, cum assumenda, atque illo temporibus eaque iure aliquid a, nihil alias quae iste? Libero, recusandae soluta. Nobis error nulla officia itaque dicta dolorem similique distinctio ipsa perspiciatis non beatae amet excepturi perferendis deleniti harum, eaque reiciendis nemo eius consectetur ab repudiandae natus eveniet necessitatibus eos? Ex ducimus harum unde optio vel excepturi repellendus, molestiae ratione cum, dolorum ea eaque perspiciatis neque possimus doloremque inventore qui id! Odio, iste itaque, amet laborum quaerat ratione delectus dolorum est modi architecto dolore voluptatibus quos, sequi hic provident accusantium fugiat reprehenderit! Doloremque neque distinctio obcaecati impedit natus esse iusto omnis quibusdam deleniti magni architecto adipisci quidem recusandae amet ipsam perspiciatis, exercitationem beatae quod quas sequi rem quae. Non deleniti eos atque quas neque et sequi. Est culpa doloremque laborum ipsa consequuntur ea? Pariatur, excepturi cupiditate vel delectus molestiae adipisci quod fuga sed quo, nam eius! Ut voluptatibus ea magnam beatae reprehenderit illum perferendis tempora! Nobis suscipit quae exercitationem magni, nulla harum voluptatem officiis expedita? Deserunt quisquam, dolores autem similique tempore doloribus itaque laudantium molestiae atque reprehenderit doloremque, possimus asperiores, ratione repudiandae excepturi sit. Facilis placeat beatae vitae temporibus esse. Hic, fugiat. Optio consectetur quisquam molestias officiis debitis aspernatur laboriosam nam quasi facilis sint reiciendis asperiores unde beatae inventore minus sapiente possimus fugit ex fugiat necessitatibus, facere animi voluptates porro amet. Minima delectus reiciendis commodi dicta facere? Praesentium ullam officiis quaerat, quibusdam ut sunt sequi eius. Quasi corrupti quidem dolor exercitationem enim velit tempora illum cumque ab expedita aliquam officia dolore nobis natus, explicabo porro eaque sunt commodi animi, nesciunt saepe laudantium eius! Eos repellat magni impedit perspiciatis voluptatibus quas perferendis. Optio, consequuntur? Necessitatibus placeat soluta corporis aliquam, assumenda similique.
+    <div id="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aliquam, adipisci nesciunt ducimus vero in consequuntur minima exercitationem, hic dolor sequi quos! Quod vel, quam eligendi nobis quos consequuntur? Assumenda voluptatum atque labore nam excepturi dolores cumque nisi provident repudiandae.</div>
+    </p>
+  </body>
+</html>
